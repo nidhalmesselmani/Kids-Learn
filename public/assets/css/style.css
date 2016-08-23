@@ -108,7 +108,7 @@ body a:hover{
 	display:inline-block;
 }
 .header-right ul li a.facebook{
-	background:url(../images/img-sp.png) no-repeat 2px -4px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/img-sp.png) no-repeat 2px -4px;
 	display:block;
 	width:40px;
 	height:40px;
@@ -116,11 +116,11 @@ body a:hover{
 	border-radius:100%;
 }
 .header-right ul li a.facebook:hover{
-	background:url(../images/img-sp.png) no-repeat -40px -4px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/img-sp.png) no-repeat -40px -4px;
 	display:block;
 }
 .header-right ul li a.twitter{
-	background:url(../images/img-sp.png) no-repeat 2px -40px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/img-sp.png) no-repeat 2px -40px;
 	display:block;
 	width:40px;
 	height:40px;
@@ -128,11 +128,11 @@ body a:hover{
 	border-radius:100%;
 }
 .header-right ul li a.twitter:hover{
-	background:url(../images/img-sp.png) no-repeat -38px -40px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/img-sp.png) no-repeat -38px -40px;
 	display:block;
 }
 .header-right ul li a.be{
-	background:url(../images/img-sp.png) no-repeat 1px -75px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/img-sp.png) no-repeat 1px -75px;
 	display:block;
 	width:40px;
 	height:40px;
@@ -140,11 +140,11 @@ body a:hover{
 	border-radius:100%;
 }
 .header-right ul li a.be:hover{
-	background:url(../images/img-sp.png) no-repeat -38px -75px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/img-sp.png) no-repeat -38px -75px;
 	display:block;
 }
 .header-right ul li a.p{
-	background:url(../images/img-sp.png) no-repeat 0px -114px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/img-sp.png) no-repeat 0px -114px;
 	display:block;
 	width:40px;
 	height:40px;
@@ -152,7 +152,7 @@ body a:hover{
 	border-radius:100%;
 }
 .header-right ul li a.p:hover{
-	background:url(../images/img-sp.png) no-repeat -38px -114px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/img-sp.png) no-repeat -38px -114px;
 	display:block;
 }
 .header-right ul {
@@ -161,7 +161,7 @@ body a:hover{
 /*-- //header --*/
 /*-- banner --*/
 .banner{
-	background:url(../images/banner.jpg) no-repeat 0px 0px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/banner.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -194,7 +194,7 @@ ul.social-icons li{
 	display:inline-block;
 }
 ul.social-icons li a.facebook{
-	background:url(../images/img-sp.png) no-repeat -73px -4px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/img-sp.png) no-repeat -73px -4px;
 	display:block;
 	width:40px;
 	height:40px;
@@ -202,11 +202,11 @@ ul.social-icons li a.facebook{
 	border-radius:100%;
 }
 ul.social-icons li a.facebook:hover{
-	background:url(../images/img-sp.png) no-repeat -40px -4px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/img-sp.png) no-repeat -40px -4px;
 	display:block;
 }
 ul.social-icons li a.twitter{
-	background:url(../images/img-sp.png) no-repeat -73px -40px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/img-sp.png) no-repeat -73px -40px;
 	display:block;
 	width:40px;
 	height:40px;
@@ -214,11 +214,11 @@ ul.social-icons li a.twitter{
 	border-radius:100%;
 }
 ul.social-icons li a.twitter:hover{
-	background:url(../images/img-sp.png) no-repeat -38px -40px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/img-sp.png) no-repeat -38px -40px;
 	display:block;
 }
 ul.social-icons li a.be{
-	background:url(../images/img-sp.png) no-repeat -73px -75px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/img-sp.png) no-repeat -73px -75px;
 	display:block;
 	width:40px;
 	height:40px;
@@ -226,11 +226,11 @@ ul.social-icons li a.be{
 	border-radius:100%;
 }
 ul.social-icons li a.be:hover{
-	background:url(../images/img-sp.png) no-repeat -37px -75px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/img-sp.png) no-repeat -37px -75px;
 	display:block;
 }
 ul.social-icons li a.p{
-	background:url(../images/img-sp.png) no-repeat -75px -114px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/img-sp.png) no-repeat -75px -114px;
 	display:block;
 	width:40px;
 	height:40px;
@@ -238,7 +238,7 @@ ul.social-icons li a.p{
 	border-radius:100%;
 }
 ul.social-icons li a.p:hover{
-	background:url(../images/img-sp.png) no-repeat -38px -114px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/img-sp.png) no-repeat -38px -114px;
 	display:block;
 }
 /*-- //banner --*/
@@ -468,12 +468,12 @@ position:relative;
 .nbs-flexisel-nav-left {
 left: 0%;
 top: 15% !important;
-background: url(../images/) no-repeat 0px 0px;
+background: url(https://salty-lake-28094.herokuapp.com/assets/images/) no-repeat 0px 0px;
 }
 .nbs-flexisel-nav-right {
 right: 0%;
 top: 15% !important;
-background: url(../images/) no-repeat -66px 0px;
+background: url(https://salty-lake-28094.herokuapp.com/assets/images/) no-repeat -66px 0px;
 }
 /*--//flexisel--*/
 .testimonials-grid-right {
@@ -550,17 +550,17 @@ p.man{
     background: #99012C;
 }
 .news-grid-left:hover .news-grid-left1{
-	background:url(../images/2-.jpg) no-repeat 0px 0px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/2-.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	min-height:300px;
 }
 .news-grid-left:hover .news-grid-left2{
-	background:url(../images/3-.jpg) no-repeat 0px 0px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/3-.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	min-height:300px;
 }
 .news-grid-left:hover .news-grid-left3{
-	background:url(../images/4-.jpg) no-repeat 0px 0px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/4-.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	min-height:300px;
 }
@@ -597,17 +597,17 @@ p.vel{
 	padding: 0em 0 0 1em;
 }
 .news-grid-left1{
-	background:url(../images/2.jpg) no-repeat 0px 0px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/2.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	min-height:300px;
 }
 .news-grid-left2{
-	background:url(../images/3.jpg) no-repeat 0px 0px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/3.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	min-height:300px;
 }
 .news-grid-left3{
-	background:url(../images/4.jpg) no-repeat 0px 0px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/4.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	min-height:300px;
 }
@@ -957,7 +957,7 @@ figure.effect-bubba:hover p {
     margin-right: 10px;
 }
 .copy-left-right ul li a.facebook{
-	background:url(../images/img-sp.png) no-repeat 2px -4px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/img-sp.png) no-repeat 2px -4px;
 	display:block;
 	width:40px;
 	height:40px;
@@ -965,11 +965,11 @@ figure.effect-bubba:hover p {
 	border-radius:100%;
 }
 .copy-left-right ul li a.facebook:hover{
-	background:url(../images/img-sp.png) no-repeat -40px -4px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/img-sp.png) no-repeat -40px -4px;
 	display:block;
 }
 .copy-left-right ul li a.twitter{
-	background:url(../images/img-sp.png) no-repeat 2px -40px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/img-sp.png) no-repeat 2px -40px;
 	display:block;
 	width:40px;
 	height:40px;
@@ -977,11 +977,11 @@ figure.effect-bubba:hover p {
 	border-radius:100%;
 }
 .copy-left-right ul li a.twitter:hover{
-	background:url(../images/img-sp.png) no-repeat -38px -40px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/img-sp.png) no-repeat -38px -40px;
 	display:block;
 }
 .copy-left-right ul li a.be{
-	background:url(../images/img-sp.png) no-repeat 1px -75px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/img-sp.png) no-repeat 1px -75px;
 	display:block;
 	width:40px;
 	height:40px;
@@ -989,11 +989,11 @@ figure.effect-bubba:hover p {
 	border-radius:100%;
 }
 .copy-left-right ul li a.be:hover{
-	background:url(../images/img-sp.png) no-repeat -38px -75px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/img-sp.png) no-repeat -38px -75px;
 	display:block;
 }
 .copy-left-right ul li a.p{
-	background:url(../images/img-sp.png) no-repeat 0px -114px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/img-sp.png) no-repeat 0px -114px;
 	display:block;
 	width:40px;
 	height:40px;
@@ -1001,7 +1001,7 @@ figure.effect-bubba:hover p {
 	border-radius:100%;
 }
 .copy-left-right ul li a.p:hover{
-	background:url(../images/img-sp.png) no-repeat -38px -114px;
+	background:url(https://salty-lake-28094.herokuapp.com/assets/images/img-sp.png) no-repeat -38px -114px;
 	display:block;
 }
 /*-- //footer --*/
@@ -1018,7 +1018,7 @@ figure.effect-bubba:hover p {
 	height: 32px;
 	border: none;
 	text-indent: 100%;
-	background: url(../images/arrow.png) no-repeat 0px 0px;
+	background: url(https://salty-lake-28094.herokuapp.com/assets/images/arrow.png) no-repeat 0px 0px;
 }
 #toTopHover {
 	width: 32px;
@@ -1168,7 +1168,7 @@ figure.effect-bubba:hover p {
 		margin: 0em 0 0 5em;
 	}
 	.banner {
-		background: url(../images/banner.jpg) no-repeat -180px 0px;
+		background: url(https://salty-lake-28094.herokuapp.com/assets/images/banner.jpg) no-repeat -180px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
