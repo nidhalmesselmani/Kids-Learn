@@ -161,7 +161,7 @@ body a:hover{
 /*-- //header --*/
 /*-- banner --*/
 .banner{
-	background-image: url(../images/banner.jpg) ;
+	background-image: url(https://salty-lake-28094.herokuapp.com/assets/images/banner.jpg) ;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
