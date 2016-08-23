@@ -1167,14 +1167,7 @@ figure.effect-bubba:hover p {
 	.header-left1 {
 		margin: 0em 0 0 5em;
 	}
-	.banner {
-		background: url(https://salty-lake-28094.herokuapp.com/assets/images/banner.jpg) no-repeat -180px 0px;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		-ms-background-size: cover;
-	}
+
 	.banner-info h1 {
 		font-size: 1.5em;
 	}
