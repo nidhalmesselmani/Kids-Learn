@@ -27,7 +27,6 @@ module.exports = {
         'public/assets/js/jquery.hoverdir.js',
         'public/assets/js/modernizr.custom.97074.js',
         'public/assets/js/move-top.js'
-
       ]
     },
     css: 'public/dist/application.min.css',

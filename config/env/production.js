@@ -8,7 +8,7 @@ module.exports = {
   },
   port: process.env.PORT || 8443,
   db: {
-    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://' + (process.env.DB_1_PORT_27017_TCP_ADDR || 'localhost') + '/mean',
+    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://' + (process.env.DB_1_PORT_27017_TCP_ADDR || 'meanuser:meanpass@ds147965.mlab.com:47965') + '/Kidsprod',
     options: {
       user: '',
       pass: ''
@@ -27,7 +27,7 @@ module.exports = {
         directoryPath: process.env.LOG_DIR_PATH || process.cwd(),
         fileName: process.env.LOG_FILE || 'access.log',
         rotatingLogs: { // for more info on rotating logs - https://github.com/holidayextras/file-stream-rotator#usage
-          active: process.env.LOG_ROTATING_ACTIVE === 'true' ? true : false, // activate to use rotating logs 
+          active: process.env.LOG_ROTATING_ACTIVE === 'true' ? true : false, // activate to use rotating logs
           fileName: process.env.LOG_ROTATING_FILE || 'access-%DATE%.log', // if rotating logs are active, this fileName setting will be used
           frequency: process.env.LOG_ROTATING_FREQUENCY || 'daily',
           verbose: process.env.LOG_ROTATING_VERBOSE === 'true' ? true : false
@@ -36,28 +36,28 @@ module.exports = {
     }
   },
   facebook: {
-    clientID: process.env.FACEBOOK_ID || 'APP_ID',
-    clientSecret: process.env.FACEBOOK_SECRET || 'APP_SECRET',
+    clientID: process.env.FACEBOOK_ID || '975372079237611',
+    clientSecret: process.env.FACEBOOK_SECRET || 'ecc48e629cc5ae1852f96a0a93155cdc',
     callbackURL: '/api/auth/facebook/callback'
   },
   twitter: {
-    clientID: process.env.TWITTER_KEY || 'CONSUMER_KEY',
-    clientSecret: process.env.TWITTER_SECRET || 'CONSUMER_SECRET',
+    clientID: process.env.TWITTER_KEY || 'KojXphimAS0qRWLwywoxcGLhl',
+    clientSecret: process.env.TWITTER_SECRET || 'yYMSNZWe3TZWg4ZghaN85xAiIFz7AoCkAgaFwJdJshyEtOVfqs',
     callbackURL: '/api/auth/twitter/callback'
   },
   google: {
-    clientID: process.env.GOOGLE_ID || 'APP_ID',
-    clientSecret: process.env.GOOGLE_SECRET || 'APP_SECRET',
+    clientID: '635948789911-unrsue85sebjf1dnhjvr377ce1gbl8q0.apps.googleusercontent.com',
+    clientSecret: process.env.GOOGLE_SECRET || 'ncvG_rYpXE3uVGawKF9RiaAQ',
     callbackURL: '/api/auth/google/callback'
   },
   linkedin: {
-    clientID: process.env.LINKEDIN_ID || 'APP_ID',
-    clientSecret: process.env.LINKEDIN_SECRET || 'APP_SECRET',
+    clientID: process.env.LINKEDIN_ID || '78rx7rmevwa4lj',
+    clientSecret: process.env.LINKEDIN_SECRET || 'm8x8ujMdbAnD28pQ',
     callbackURL: '/api/auth/linkedin/callback'
   },
   github: {
-    clientID: process.env.GITHUB_ID || 'APP_ID',
-    clientSecret: process.env.GITHUB_SECRET || 'APP_SECRET',
+    clientID: process.env.GITHUB_ID || '98a4954fe255ab548749',
+    clientSecret: process.env.GITHUB_SECRET || '0f1115ce475536131084cb650ceb055b33a06864',
     callbackURL: '/api/auth/github/callback'
   },
   paypal: {
@@ -67,12 +67,12 @@ module.exports = {
     sandbox: false
   },
   mailer: {
-    from: process.env.MAILER_FROM || 'MAILER_FROM',
+    from: process.env.MAILER_FROM || 'nidhal47@gmail.com',
     options: {
-      service: process.env.MAILER_SERVICE_PROVIDER || 'MAILER_SERVICE_PROVIDER',
+      service: process.env.MAILER_SERVICE_PROVIDER || 'gmail',
       auth: {
-        user: process.env.MAILER_EMAIL_ID || 'MAILER_EMAIL_ID',
-        pass: process.env.MAILER_PASSWORD || 'MAILER_PASSWORD'
+        user: process.env.MAILER_EMAIL_ID || 'nidhal47@gmail.com',
+        pass: process.env.MAILER_PASSWORD || 'N23/12/1963'
       }
     }
   },
