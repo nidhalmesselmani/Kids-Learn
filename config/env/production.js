@@ -8,7 +8,7 @@ module.exports = {
   },
   port: process.env.PORT || 8443,
   db: {
-    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://' + (process.env.DB_1_PORT_27017_TCP_ADDR || 'meanuser:meanpass@ds147965.mlab.com:47965') + '/kidsprod',
+    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://' + (process.env.DB_1_PORT_27017_TCP_ADDR || 'admin:admin@ds147965.mlab.com:47965') + '/kidsprod',
     options: {
       user: '',
       pass: ''
