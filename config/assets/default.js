@@ -33,18 +33,13 @@ module.exports = {
       'modules/*/client/scss/*.scss'
     ],
     js: [
-      'public/assets/js/jquery.js',
+      'public/lib/jquery/dist/jquery.js',
       'modules/core/client/app/config.js',
       'modules/core/client/app/init.js',
       'modules/*/client/*.js',
       'modules/*/client/**/*.js',
-      'public/assets/js/easing.js',
-      'public/assets/js/bootstrap.js',
-      'public/assets/js/jquery.chocolat.js',
-      'public/assets/js/jquery.flexisel.js',
-      'public/assets/js/jquery.hoverdir.js',
-      'public/assets/js/modernizr.custom.97074.js',
-      'public/assets/js/move-top.js'
+      'public/lib/bootstrap/dist/js/bootstrap.js'
+
 
     ],
     views: ['modules/*/client/views/**/*.html'],
