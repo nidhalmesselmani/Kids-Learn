@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('core').controller('HomeController', ['$scope', 'Authentication','$animate','$document',
-  function ($scope, Authentication,$animate,$document) {
+angular.module('core').controller('HomeController', ['$scope', 'Authentication','$animate',
+  function ($scope, Authentication,$animate) {
     $scope.myInterval = 2000;
     $scope.noWrapSlides = false;
     $scope.active = 0;

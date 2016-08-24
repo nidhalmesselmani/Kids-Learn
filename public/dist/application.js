@@ -10079,7 +10079,7 @@ return jQuery;
 var ApplicationConfiguration = (function () {
   // Init module configuration options
   var applicationModuleName = 'mean';
-  var applicationModuleVendorDependencies = ['ngResource', 'jkuri.gallery' ,'ngTouch', 'ngAnimate', 'ngMessages', 'ui.router', 'ui.bootstrap', 'ui.utils', 'angularFileUpload'];
+  var applicationModuleVendorDependencies = ['ngResource', 'ngAnimate', 'ngMessages', 'ui.router', 'ui.bootstrap', 'ui.utils', 'angularFileUpload'];
 
   // Add a new vertical module
   var registerModule = function (moduleName, dependencies) {
@@ -10543,8 +10543,8 @@ angular.module('core').controller('HeaderController', ['$scope', '$state', 'Auth
 
 'use strict';
 
-angular.module('core').controller('HomeController', ['$scope', 'Authentication','$animate','$document',
-  function ($scope, Authentication,$animate,$document) {
+angular.module('core').controller('HomeController', ['$scope', 'Authentication','$animate',
+  function ($scope, Authentication,$animate) {
     $scope.myInterval = 2000;
     $scope.noWrapSlides = false;
     $scope.active = 0;
