@@ -9,7 +9,7 @@ module.exports = {
       ],
       js: [
         'public/assets/js/jquery.js',
-        'public/lib/bootstrap/dist/js/bootstrap.js',
+        'public/assets/js/bootstrap.js',
         'public/lib/angular/angular.js',
         'public/lib/angular-touch/angular-touch.js',
         'public/lib/angular-resource/angular-resource.js',
