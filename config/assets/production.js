@@ -10,6 +10,7 @@ module.exports = {
         'public/assets/css/chocolat.css'
       ],
       js: [
+        'public/assets/js/jquery.js',
         'public/lib/angular/angular.min.js',
         'public/lib/angular-touch/angular-touch.js',
         'public/lib/angular-resource/angular-resource.min.js',
@@ -20,14 +21,8 @@ module.exports = {
         'public/lib/angular-bootstrap/ui-bootstrap-tpls.min.js',
         'public/lib/angular-file-upload/angular-file-upload.min.js',
         'public/lib/owasp-password-strength-test/owasp-password-strength-test.js',
-        'public/assets/js/jquery.js',
-        'public/assets/js/easing.js',
         'public/assets/js/bootstrap.js',
-        'public/assets/js/jquery.chocolat.js',
-        'public/assets/js/jquery.flexisel.js',
-        'public/assets/js/jquery.hoverdir.js',
-        'public/assets/js/modernizr.custom.97074.js',
-        'public/assets/js/move-top.js'
+
       ]
     },
     css: 'public/dist/application.min.css',
