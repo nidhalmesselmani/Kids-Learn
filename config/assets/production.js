@@ -11,6 +11,7 @@ module.exports = {
       ],
       js: [
         'public/lib/angular/angular.min.js',
+        'public/lib/angular-touch/angular-touch.js',
         'public/lib/angular-resource/angular-resource.min.js',
         'public/lib/angular-animate/angular-animate.min.js',
         'public/lib/angular-messages/angular-messages.min.js',
