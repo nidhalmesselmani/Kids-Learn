@@ -5,7 +5,7 @@
   <div class="header">
     <div class="container">
       <div class="header-left">
-        <a href="index.html"><i class="glyphicon glyphicon-book" aria-hidden="true"></i>Nidhal & Hammo <span>Your Children Future in Our Hands</span></a>
+        <a href="index.html"><i class="glyphicon glyphicon-book" aria-hidden="true"></i>Nidhal & Hammo <span>Your Child Future in Our Hands</span></a>
       </div>
       <div class="header-left1">
         <ul>
@@ -15,10 +15,10 @@
       </div>
       <div class="header-right">
         <ul>
-          <li><a href="https://web.facebook.com/nidhal.messelmani" class="facebook"></a></li>
-          <li><a href="https://twitter.com/M_Nidhal47" class="twitter"></a></li>
-          <li><a href="#" class="be"></a></li>
-          <li><a href="https://www.pinterest.com/nidhal47/" class="p"></a></li>
+          <li><a href="https://web.facebook.com/nidhal.messelmani" ></a></li>
+          <li><a href="https://twitter.com/M_Nidhal47"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="https://www.pinterest.com/nidhal47/"></a></li>
         </ul>
       </div>
       <div class="clearfix"> </div>
@@ -26,20 +26,22 @@
   </div>
   <!-- //header -->
   <!-- banner -->
-  <div class="banner">
-    <div class="container">
-      <div class="banner-info">
-        <h1>Change is the end result<span> of all true learning.</span></h1>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor.</p>
-        <ul class="social-icons">
-          <li><a href="#" class="facebook"></a></li>
-          <li><a href="#" class="twitter"></a></li>
-          <li><a href="#" class="be"></a></li>
-          <li><a href="#" class="p"></a></li>
-        </ul>
+  <div class="">
+
+    <div class="">
+      <div >
+        <carousel interval="myInterval">
+          <slide ng-repeat="slide in slides" active="slide.active">
+            <img ng-src="{{slide.image}}" style="margin:auto;">
+            <div class="carousel-caption">
+              <h4>Slide {{$index}}</h4>
+              <p>{{slide.text}}</p>
+            </div>
+          </slide>
+        </carousel>
       </div>
-    </div>
+
+
   </div>
   <!-- //banner -->
   <!-- header-nav -->
@@ -50,7 +52,7 @@
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span>
+              <san class="sr-only">Toggle navigation</san>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -74,9 +76,9 @@
 
 
   <!-- news -->
-  <div class="news" id="news">
+
     <div class="container">
-      <h3>News & Events</h3>
+
       <div class="latest-news">
         <div class="latest-news-grids">
           <div class="col-md-6 latest-news-grid">
@@ -128,58 +130,13 @@
               <p class="man">But who has any right to find fault with a man who
                 chooses to enjoy.</p>
             </div>
-            <div class="clearfix"> </div>
           </div>
-          <div class="clearfix"> </div>
+
         </div>
       </div>
-      <div class="news-grid">
-        <div class="col-md-4 news-grid-left">
-          <div class="news-grid-left1">
-            <div class="news-grid-left-top">
-              <p><i class="glyphicon glyphicon-calendar" aria-hidden="true"></i><span>September 25th 2015 at 10:30 AM</span></p>
-            </div>
-            <h4>perferendis doloribus asperiores</h4>
-            <p class="vel">Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-              esse quam nihil molestiae consequatur.</p>
-            <div class="news-pos">
-              <p>Vel illum qui dolorem eum
-                fugiat quo voluptas nulla pariatur</p>
-            </div>
-          </div>
         </div>
-        <div class="col-md-4 news-grid-left">
-          <div class="news-grid-left2">
-            <div class="news-grid-left-top">
-              <p><i class="glyphicon glyphicon-calendar" aria-hidden="true"></i><span>September 25th 2015 at 10:30 AM</span></p>
-            </div>
-            <h4>perferendis doloribus asperiores</h4>
-            <p class="vel">Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-              esse quam nihil molestiae consequatur.</p>
-            <div class="news-pos">
-              <p>Vel illum qui dolorem eum
-                fugiat quo voluptas nulla pariatur</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 news-grid-left">
-          <div class="news-grid-left3">
-            <div class="news-grid-left-top">
-              <p><i class="glyphicon glyphicon-calendar" aria-hidden="true"></i><span>September 25th 2015 at 10:30 AM</span></p>
-            </div>
-            <h4>perferendis doloribus asperiores</h4>
-            <p class="vel">Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-              esse quam nihil molestiae consequatur.</p>
-            <div class="news-pos">
-              <p>Vel illum qui dolorem eum
-                fugiat quo voluptas nulla pariatur</p>
-            </div>
-          </div>
-        </div>
-        <div class="clearfix"> </div>
-      </div>
-    </div>
-  </div>
+
+
   <!-- //news -->
   <!-- gallery -->
 

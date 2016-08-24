@@ -9,6 +9,7 @@ module.exports = {
       ],
       js: [
         'public/lib/angular/angular.js',
+        'public/lib/angular-touch/angular-touch.js',
         'public/lib/angular-resource/angular-resource.js',
         'public/lib/angular-animate/angular-animate.js',
         'public/lib/angular-messages/angular-messages.js',
@@ -16,14 +17,17 @@ module.exports = {
         'public/lib/angular-ui-utils/ui-utils.js',
         'public/lib/angular-bootstrap/ui-bootstrap-tpls.js',
         'public/lib/angular-file-upload/angular-file-upload.js',
-        'public/lib/owasp-password-strength-test/owasp-password-strength-test.js'
+        'public/lib/owasp-password-strength-test/owasp-password-strength-test.js',
+        'public/lib/ngGallery/src/js/ngGallery.js'
       ],
       tests: ['public/lib/angular-mocks/angular-mocks.js']
     },
     css: [
       'modules/*/client/css/*.css',
       'public/assets/css/style.css',
-      'public/assets/css/chocolat.css'
+      'public/assets/css/chocolat.css',
+      'public/lib/ngGallery/src/css/ngGallery.css',
+      'public/assets/font-awesome/css/font-awesome.css'
 
     ],
     less: [
