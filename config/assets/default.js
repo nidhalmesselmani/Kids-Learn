@@ -8,6 +8,8 @@ module.exports = {
         'public/lib/bootstrap/dist/css/bootstrap-theme.css'
       ],
       js: [
+        'public/lib/jquery/dist/jquery.js',
+        'public/lib/bootstrap/dist/js/bootstrap.js',
         'public/lib/angular/angular.js',
         'public/lib/angular-touch/angular-touch.js',
         'public/lib/angular-resource/angular-resource.js',
@@ -37,12 +39,12 @@ module.exports = {
       'modules/*/client/scss/*.scss'
     ],
     js: [
-      'public/lib/jquery/dist/jquery.js',
+
       'modules/core/client/app/config.js',
       'modules/core/client/app/init.js',
       'modules/*/client/*.js',
-      'modules/*/client/**/*.js',
-      'public/lib/bootstrap/dist/js/bootstrap.js'
+      'modules/*/client/**/*.js'
+
 
 
     ],

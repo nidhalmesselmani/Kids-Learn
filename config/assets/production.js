@@ -10,7 +10,8 @@ module.exports = {
         'public/assets/css/chocolat.css'
       ],
       js: [
-        'public/assets/js/jquery.js',
+        'public/lib/jquery/dist/jquery.js',
+        'public/lib/bootstrap/dist/js/bootstrap.js',
         'public/lib/angular/angular.min.js',
         'public/lib/angular-touch/angular-touch.js',
         'public/lib/angular-resource/angular-resource.min.js',
@@ -21,7 +22,6 @@ module.exports = {
         'public/lib/angular-bootstrap/ui-bootstrap-tpls.min.js',
         'public/lib/angular-file-upload/angular-file-upload.min.js',
         'public/lib/owasp-password-strength-test/owasp-password-strength-test.js',
-        'public/assets/js/bootstrap.js',
 
       ]
     },
