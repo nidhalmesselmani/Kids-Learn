@@ -12,7 +12,7 @@ angular.module('core').controller('HomeController', ['$scope', 'Authentication',
       var newWidth = 1512 + slides.length + 1;
       slides.push({
         image: '//unsplash.it/' + newWidth + '/300',
-        text: ['Nice image','Awesome photograph','That is so cool','I love that'][slides.length % 4],
+        text: ['Learn English','Awesome photograph','That is so cool','I love that'][slides.length % 4],
         id: currIndex++
       });
     };
